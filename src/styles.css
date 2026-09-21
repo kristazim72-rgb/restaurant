@@ -1,0 +1,59 @@
+.home-container {
+  background-image: url('./bg.jpg');
+  background-size:cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 100vh;           
+  
+ 
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.699);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-container h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 2.2rem; 
+  max-width: 600px;
+}
+
+.tab-content {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.menu-container h2 {
+  font-size: 2rem;
+  color: #8b0000;
+}
+
+.about-container {
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  max-width: 800px;
+}
+
